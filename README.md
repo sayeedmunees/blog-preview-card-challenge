@@ -31,9 +31,9 @@ This is the solution to the [Blog preview card challenge on Frontend Mentor](htt
 
 ### Links
 
-- Solution URL: [Click here](https://github.com/sayeedmunees/pricing-card-frontend-mentor-challenge)
+- Solution URL: [Click here](https://github.com/sayeedmunees/blog-preview-card-challenge)
 
-- Live Site URL: [Click here](https://sayeedmunees.github.io/pricing-card-frontend-mentor-challenge/)
+- Live Site URL: [Click here](https://sayeedmunees.github.io/blog-preview-card-challenge/)
 
 ## My process
 
