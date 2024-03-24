@@ -1,0 +1,135 @@
+html {
+    box-sizing: border-box;
+    font-family: "Figtree", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+body {
+    background-color: #f4d04e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+#card {
+    width: 375px;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 1);
+    padding: 25px;
+}
+
+#card-wrap:hover #card {
+    box-shadow: 15px 15px 0px 0px rgba(0, 0, 0, 1);
+    transition: all 300ms ease-in-out 0s;
+}
+
+#illustration-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+#illustration-container img {
+    width: 110%;
+    height: 100%;
+    align-self: self-end;
+    object-fit: cover;
+    border-radius: inherit;
+}
+
+#topic {
+    width: fit-content;
+    color: #121212;
+    font-weight: 800;
+    background-color: #f4d04e;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+#date {
+    color: #121212;
+    opacity: 0.8;
+    margin-bottom: 15px;
+}
+
+#card-contents h3 {
+    font-size: 1.4rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+    background-color: #ffffff00;
+    border: none;
+}
+
+#card-contents h3:hover {
+    cursor: text;
+    color: black;
+    cursor: pointer;
+    color: #f4d04e;
+}
+
+
+#card-contents p {
+    color: #808080;
+    margin-bottom: 5px;
+}
+
+#card-contents {
+    margin-bottom: 25px;
+}
+
+#card-profile {
+    display: flex;
+    align-items: center;
+}
+
+#card-profile img {
+    width: 50px;
+    height: auto;
+}
+
+#card-profile h3 {
+    font-weight: 800;
+    margin-left: 15px;
+}
+
+.attribution {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ae9436;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+@media (min-width: 576px) {
+    #illustration-container img {
+        width: 100%;
+        height: 100%;
+        align-self: center;
+    }
+
+}
